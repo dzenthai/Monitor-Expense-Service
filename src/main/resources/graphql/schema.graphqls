@@ -1,0 +1,13 @@
+type Query {
+    transactions: [Transaction]
+}
+
+type Transaction {
+    id: ID!
+    accountFrom: String
+    accountTo: String
+    sum: Float
+    currency: String
+    expenseCategory: String
+    datetime: String
+}
